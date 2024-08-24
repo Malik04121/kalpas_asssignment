@@ -97,7 +97,7 @@ FIREBASE_CLIENT_X509_CERT_URL=https://www.googleapis.com/robot/v1/metadata/x509/
 
 ### Testing the API
 
-1. **Postman Collection**: Import the Postman collection using the URL: https://api.postman.com/collections/24009787-61bc7de8-01fc-466e-86b7-47e3f4bf94b2?access_key=PMAT-01J62SQA568K0KRKHK60FMQKV8(replace with your actual URL).
+1. **Postman Collection**: Import the Postman collection using the URL: https://api.postman.com/collections/24009787-61bc7de8-01fc-466e-86b7-47e3f4bf94b2?access_key=PMAT-01J62SQA568K0KRKHK60FMQKV8.
 2. Import Postman Collection using above url.
 
 3. **Testing**: You can test the API endpoints using Postman or any other API testing tool.
