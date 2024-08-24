@@ -63,7 +63,6 @@ This project is a bookkeeping service API that manages Books, Users, and Librari
 
 Create a `.env` file in the root directory of your project and add the following environment variables:
 
-\`\`\`bash
 MONGO_URI=<Your MongoDB Connection String>
 JWT_SECRET_KEY=<Your JWT Secret Key>
 FIREBASE_PROJECT_ID=<Your Firebase Project ID>
@@ -75,25 +74,21 @@ FIREBASE_AUTH_URI=https://accounts.google.com/o/oauth2/auth
 FIREBASE_TOKEN_URI=https://oauth2.googleapis.com/token
 FIREBASE_AUTH_PROVIDER_X509_CERT_URL=https://www.googleapis.com/oauth2/v1/certs
 FIREBASE_CLIENT_X509_CERT_URL=https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-xxxxx@<Your Firebase Project ID>.iam.gserviceaccount.com
-\`\`\`
+
 
 ### Installation
 
 1. **Clone the repository**:
-   \`\`\`bash
+   
    git clone https://github.com/your-username/kalpas_asssignment.git
    cd kalpas_asssignment
-   \`\`\`
+   
 
 2. **Install dependencies**:
-   \`\`\`bash
    npm install
-   \`\`\`
 
 3. **Run the application**:
-   \`\`\`bash
    npm start
-   \`\`\`
 
 ### Testing the API
 
