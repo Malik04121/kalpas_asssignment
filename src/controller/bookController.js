@@ -37,23 +37,7 @@ const getSingleBook = async (req, res) => {
         });
     }
 }
-// const createBook = async (req, res) => {
-//     try {
-//         const { title, library, borrower, image } = req.body;
-//         const book = new Book({
-//             title,
-//             author: req.user.userId,
-//             library,
-//             borrower,
-//             image
-//         });
-//         await book.save();
-//         res.status(201).json({ message: i18n.__({ phrase: "BOOK_CREATED", locale: req.user.language || 'en' }), book });
-//     } catch (error) {
 
-//         res.status(500).json({ message: i18n.__({ phrase: "SERVER_ERROR", locale: req.user.language || 'en' }) });
-//     }
-// };
 const createBook = async (req, res) => {
     const { title, library, borrower, image } = req.body;
     try {
