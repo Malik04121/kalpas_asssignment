@@ -1,9 +1,9 @@
 const express=require('express')
-const { bookRoute } = require('./route/bookRoute')
-const { connection } = require('./config/connection')
-const { userRoute } = require('./route/userRoute')
-const { libraryRoute } = require('./route/libraryRoute')
-const { bookBorrowRoute } = require('./route/borrowRoute')
+const { bookRoute } = require('../route/bookRoute')
+const { connection } = require('../config/connection')
+const { userRoute } = require('../route/userRoute')
+const { libraryRoute } = require('../route/libraryRoute')
+const { bookBorrowRoute } = require('../route/borrowRoute')
 
 const app=express()
 
