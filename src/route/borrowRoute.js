@@ -1,5 +1,6 @@
 const express=require('express')
-const { borrowBook, returnBook } = require('../controller/bookBorrowcontroller')
+
+const { borrowBook, returnBook } = require('../controller/bookBorrowController');
 const { verifyToken } = require('../middleware/authMiddleware')
 
 const bookBorrowRoute=express()
